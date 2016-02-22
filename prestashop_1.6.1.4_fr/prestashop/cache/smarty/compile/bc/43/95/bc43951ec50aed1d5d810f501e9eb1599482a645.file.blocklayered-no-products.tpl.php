@@ -1,0 +1,27 @@
+<?php /* Smarty version Smarty-3.1.19, created on 2016-02-22 10:40:38
+         compiled from "C:\wamp\www\PHP_Prestashop\prestashop_1.6.1.4_fr\prestashop\themes\default-bootstrap\modules\blocklayered\blocklayered-no-products.tpl" */ ?>
+<?php /*%%SmartyHeaderCode:2140056cad796646100-73750139%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+$_valid = $_smarty_tpl->decodeProperties(array (
+  'file_dependency' => 
+  array (
+    'bc43951ec50aed1d5d810f501e9eb1599482a645' => 
+    array (
+      0 => 'C:\\wamp\\www\\PHP_Prestashop\\prestashop_1.6.1.4_fr\\prestashop\\themes\\default-bootstrap\\modules\\blocklayered\\blocklayered-no-products.tpl',
+      1 => 1456133783,
+      2 => 'file',
+    ),
+  ),
+  'nocache_hash' => '2140056cad796646100-73750139',
+  'function' => 
+  array (
+  ),
+  'has_nocache_code' => false,
+  'version' => 'Smarty-3.1.19',
+  'unifunc' => 'content_56cad796694307_19557385',
+),false); /*/%%SmartyHeaderCode%%*/?>
+<?php if ($_valid && !is_callable('content_56cad796694307_19557385')) {function content_56cad796694307_19557385($_smarty_tpl) {?>
+<div class="product_list">
+	<p class="alert alert-warning"><?php echo smartyTranslate(array('s'=>'There are no products.','mod'=>'blocklayered'),$_smarty_tpl);?>
+</p>
+</div>
+<?php }} ?>
